@@ -221,7 +221,7 @@ public void run()
 		users.remove(currentuser,this);
 		os.close();
 		is.close();
-		client.close();
+		//client.close();
 	}
 	catch(Exception e)
 	{
